@@ -18,7 +18,7 @@ In order to use this you need to first set it up.
 	- Go to credentials
 	- Create API key and OAuth Client ID (choose Desktop app)
 	- Copy the API key to your `config.json` file
-	- Download JSON of your OAuth, call it `client-secret.json` and save it in the sam folder as the scripts
+	- Download JSON of your OAuth, call it `client-secret.json` and save it in the same folder as the scripts
 	- Go to OAuth consent screen (https://console.cloud.google.com/apis/credentials/consent) and press PUBLISH APP
 3. Fill the `config.json` with all the info. If you don't know the id of the uploads playlist of a given channel (`"uploads_id"`), just leave it empty. Here is an example of config (using this channel https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg):
 ```json
