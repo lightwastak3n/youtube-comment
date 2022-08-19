@@ -20,7 +20,17 @@ In order to use this you need to first set it up.
 	- Copy the API key to your `config.json` file
 	- Download JSON of your OAuth, call it `client-secret.json` and save it in the sam folder as the scripts
 	- Go to OAuth consent screen (https://console.cloud.google.com/apis/credentials/consent) and press PUBLISH APP
-3. Fill the `config.json` with all the info. If you don't know the id of the uploads playlist of a given channel `uploads_id`, just leave it empty.
+3. Fill the `config.json` with all the info. If you don't know the id of the uploads playlist of a given channel (`"uploads_id"`), just leave it empty. Here is an example of config (using this channel https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg):
+```json
+{
+"api_key" : "AIzaSyCRNfIhCXAi1pSCugU5pdWKHM9M2SmTv3c",
+"channel_id" : "UCY1kMZp36IQSyNx_9h4mpCg",
+"latest_vid_id": "h8g9wfI9nGI",
+"uploads_id": "UUY1kMZp36IQSyNx_9h4mpCg",
+"comment": "First",
+video_id_get_comments": "xsLJZyih3Ac"
+}
+```
 
 # Use
 If you just want to post a comment automatically, just run `youtube_comment.py`.
