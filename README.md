@@ -28,7 +28,7 @@ In order to use this you need to first set it up.
 "latest_vid_id": "h8g9wfI9nGI",
 "uploads_id": "UUY1kMZp36IQSyNx_9h4mpCg",
 "comment": "First",
-video_id_get_comments": "xsLJZyih3Ac"
+"video_id_get_comments": "xsLJZyih3Ac"
 }
 ```
 
